@@ -1,0 +1,21 @@
+1.npm i sequelize
+
+2.npm i mysql2 
+
+3.npm install --save-dev sequelize-cli
+
+4.npx sequelize-cli init
+
+5.database creation: sequelize db:create
+
+
+
+6.table and modelcreation: npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+
+7.npx sequelize-cli db:migrate
+
+mysql2
+database creation: create database test_orm
+changing table name: alter table new_table rename users;
+
+sequelize db:create
